@@ -44,7 +44,7 @@ AnimerSerpent::AnimerSerpent(QGraphicsItem* parent):QGraphicsRectItem(parent)
     text->setPlainText("Puiez sur Espace pour commancer");
     text->setPos(400,250);
     text->setDefaultTextColor(Qt::BackButton);
-    text->setFont(QFont("roboto",20));
+    text->setFont(QFont("Karantina",20));
 
 
 }
