@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>food.png</file>
+        <file>food2.png</file>
+        <file>mur.png</file>
+        <file>snake.ico</file>
+    </qresource>
+    <qresource prefix="/svgs">
+        <file>lock.png</file>
+    </qresource>
+    <qresource prefix="/snake">
+        <file>skins/1head.png</file>
+        <file>skins/1headDown.png</file>
+        <file>skins/1headLeft.png</file>
+        <file>skins/1headup.png</file>
+        <file>skins/1left-right.png</file>
+        <file>skins/1leftUp-downRight.png</file>
+        <file>skins/1rightUp-downLeft.png</file>
+        <file>skins/1tail.png</file>
+        <file>skins/1tailDown.png</file>
+        <file>skins/1tailLeft.png</file>
+        <file>skins/1tailUp.png</file>
+        <file>skins/1up-down.png</file>
+        <file>skins/1upLeft-rightDown.png</file>
+        <file>skins/1upRight-leftDown.png</file>
+    </qresource>
+    <qresource prefix="/bg">
+        <file>bg/bg.jpg</file>
+        <file>bg/bg1.jpg</file>
+        <file>bg/bg2.png</file>
+        <file>bg/bg3.jpg</file>
+        <file>bg/bg4.png</file>
+        <file>bg/menu.jpg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>eat.wav</file>
+    </qresource>
+</RCC>
