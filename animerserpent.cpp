@@ -41,9 +41,10 @@ AnimerSerpent::AnimerSerpent(QGraphicsItem* parent):QGraphicsRectItem(parent)
 
     text = new QGraphicsTextItem(this);
     text->setVisible(true);
-    text->setPlainText("Puiez sur Espace pour continue");
-    text->setPos(650,250);
-    text->setFont(QFont("",14));
+    text->setPlainText("Puiez sur Espace pour commancer");
+    text->setPos(400,250);
+    text->setDefaultTextColor(Qt::BackButton);
+    text->setFont(QFont("roboto",20));
 
 
 }
