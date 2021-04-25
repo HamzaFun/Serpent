@@ -19,6 +19,7 @@ public:
     AnimerSerpent* serp2;
     int stg;
 
+    QString changes;
     void afficherMenu(QString titre, QString jouer);
     void afficherFin(QString titre, QString jouer);
 
