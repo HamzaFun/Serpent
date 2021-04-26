@@ -13,15 +13,14 @@ class Jeu : public QGraphicsView
 public:
     Jeu(QWidget* parent=0);
     void keyPressEvent(QKeyEvent *event);
+    void afficherMenu(QString titre, QString jouer);
+    void afficherFin(QString titre, QString jouer);
+
     Score* score;
     QGraphicsScene* sceneDeJeu;
     AnimerSerpent* serp;
     AnimerSerpent* serp2;
-    int stg;
 
-    QString changes;
-    void afficherMenu(QString titre, QString jouer);
-    void afficherFin(QString titre, QString jouer);
 
     QGraphicsTextItem* titreText = NULL;
     QGraphicsTextItem* pauseText = NULL;
@@ -29,6 +28,8 @@ public:
     QGraphicsTextItem* stagesText = NULL;
     Obstacles* obs = NULL;
     Button* b;
+
+    int stg;
     int StageCourant;
     void finJeu();
 private:

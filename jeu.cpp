@@ -116,7 +116,7 @@ Button* Jeu::creerStg(QString text, int w, int h, int xpos, int ypos, int stg, b
 {
     Button* button;
     if(stg != 0) {
-        button = new Button(text, w, h, stg, true, pere);
+        button = new Button(text, w, h, stg, pere);
         if(stg <= StageCourant){
             button->deletelock();
         }
